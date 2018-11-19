@@ -1,0 +1,207 @@
+.subtitle-pr{
+  margin-bottom:1em;
+}
+
+.jbc{
+  background:#fff !important;
+  border:3px solid #00B9D9;
+  border-radius:18px;
+  padding:1.5em;
+}
+
+.jbc-text-experience{
+  font-size:10px;
+  line-height:1.5em;
+}
+
+.jbc-text-trading{
+  font-size:10px;
+  line-height:1em;
+}
+
+
+h6 .jbc-consult-name{
+  color:#000 !important;
+  line-height:1.2em;
+}
+
+.jbc-part-header{
+  margin-top:-2.5em !important;
+}
+.jbc-photo-part img{
+    position: absolute;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.jbc-trading-text{
+  font-size:0.8em;
+  color:#000;
+  cursor:default;
+}
+
+
+@media (min-width: 1500px) {
+    .jbc-part-header{
+      text-align:center !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .jbc{
+      width:350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .jobc-photo-part img{
+      margin-left:-15px;
+    }
+}
+
+.data-container{
+  padding:2em;
+  background:#fff !important;
+  border-radius:18px;
+}
+
+.data-pr{
+    margin-top:2em;
+}
+
+.data-pr .subtitle-pr{
+    margin-left:-10px;
+}
+
+#bars .bar .progress {
+  overflow: visible;
+  background-color: #ddd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 10px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  border-radius: 18px;
+}
+
+#bars .bar .progress .progress-bar {
+  background: -webkit-linear-gradient(left, #1e5799 0%,#207cca 0%,#2989d8 21%,#0bcff1 100%);
+  position: relative;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border-radius: 18px;
+}
+
+#bars .bar + .bar {
+  margin-top: 35px;
+}
+
+.text-step{
+  margin-bottom:20px ;
+}
+
+.text-step, .done-date{
+  font-size:1.2em;
+  color:#888;
+}
+
+@media (max-width: 450px) {
+    .status-info{
+      display:none;
+    }
+}
+
+@media (max-width: 340px) {
+    .step-name{
+      display:none;
+    }
+}
+
+#circle{
+  background: fff;
+  width: 230px;
+  height: 230px;
+  border-radius: 200px;
+  border: 14px solid #0BCFF1;
+}
+
+#circle div {
+  position:relative;
+  left: 45px;
+  top: 55px;
+  width: 80px;
+  height: 80px;
+  color: #555;
+  text-align: center;
+}
+
+.allprj{
+  font-size:2em;
+}
+
+.allprj-percent{
+  font-size:2em;
+}
+
+.division{
+  border-radius:18px;
+  height:410px;
+  background:#ddd;
+  width:10px !important;
+}
+
+.subtitle-pr2{
+  margin-bottom:40px;
+}
+
+@media (max-width: 1199px) {
+    .division{
+      display:none;
+    }
+}
+
+.visionp{
+  margin-left:-30px;
+}
+
+.invest{
+  width:250px;
+  font-size:1.2em;
+  font-weight:400 !important;
+  margin-left:2em;
+}
+
+.invest-val{
+  font-weight:600;
+}
+
+.ms, .md{
+  font-weight: 600;
+  list-style: none;
+}
+
+.project-time .ms::before {
+  content: "• ";
+  color: #0BCFF1;
+  font-size:1.4em;
+}
+
+.project-time .md::before {
+  content: "• ";
+  color: #0BCFF1;
+  font-size:1.4em;
+}
+
+.monthstart, .monthdone{
+  margin-top:10px;
+  margin-bottom:10px;
+  list-style: none;
+  color:#999;
+}
+
+.project-time{
+  width:220px;
+}
